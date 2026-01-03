@@ -1,0 +1,58 @@
+[
+    {
+        "DeviceId": 101,
+        "DeviceCode": "B737-8-MIA-#1",
+        "DeviceName": "Boeing 737-800 #1",
+        "CampusId": 1,
+        "CampusName": "Miami"
+    },
+    {
+        "DeviceId": 102,
+        "DeviceCode": "B737-8-MIA-#2",
+        "DeviceName": "Boeing 737-800 #2",
+        "CampusId": 1,
+        "CampusName": "Miami"
+    },
+    {
+        "DeviceId": 103,
+        "DeviceCode": "B787-9-MIA-#1",
+        "DeviceName": "Boeing 787-900 #1",
+        "CampusId": 1,
+        "CampusName": "Miami"
+    },
+    {
+        "DeviceId": 201,
+        "DeviceCode": "B737-8-LGW-#1",
+        "DeviceName": "Boeing 737-800 #1",
+        "CampusId": 2,
+        "CampusName": "Gatwick"
+    },
+    {
+        "DeviceId": 202,
+        "DeviceCode": "B787-9-LGW-#1",
+        "DeviceName": "Boeing 787-900 #1",
+        "CampusId": 2,
+        "CampusName": "Gatwick"
+    },
+    {
+        "DeviceId": 301,
+        "DeviceCode": "B737-8-SIN-#1",
+        "DeviceName": "Boeing 737-800 #1",
+        "CampusId": 3,
+        "CampusName": "Singapore"
+    },
+    {
+        "DeviceId": 302,
+        "DeviceCode": "B787-9-SIN-#1",
+        "DeviceName": "Boeing 787-900 #1",
+        "CampusId": 3,
+        "CampusName": "Singapore"
+    },
+    {
+        "DeviceId": 303,
+        "DeviceCode": "B777-3-SIN-#1",
+        "DeviceName": "Boeing 777-300 #1",
+        "CampusId": 3,
+        "CampusName": "Singapore"
+    }
+]

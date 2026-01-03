@@ -1,0 +1,12 @@
+.env
+__pycache__/
+flask_session/
+*.log
+*.txt
+!requirements.txt
+.vscode/
+.idea/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store

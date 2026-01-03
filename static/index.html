@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Assistant</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="chat-container">
+        <header>
+            <div class="logo-area">
+                <div class="logo-icon">✈️</div>
+                <div>
+                    <h1>Flight Sim Booking</h1>
+                    <div style="font-size: 12px; color: var(--secondary-text);">AI Assistant Online</div>
+                </div>
+            </div>
+            <div class="status-dot"></div>
+        </header>
+
+        <div class="messages-area" id="messages">
+            <!-- Initial Greeting -->
+            <div class="message bot">
+                Hi! I'm your Flight Simulator Booking Assistant. 
+                <br><br>
+                I can help you:
+                <ul>
+                    <li>List available simulators</li>
+                    <li>Check availability for a date</li>
+                    <li>Book training sessions</li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Typing Indicator -->
+        <div class="typing" id="typing">
+            <span></span><span></span><span></span>
+        </div>
+
+        <div class="quick-actions">
+            <div class="chip" onclick="sendQuickMessage('Show me simulators in Miami')">Simulators in Miami</div>
+            <div class="chip" onclick="sendQuickMessage('Check availability for B737-8-MIA-#1')">Check Availability</div>
+            <div class="chip" onclick="sendQuickMessage('My Cart')">Show Cart</div>
+        </div>
+
+        <div class="input-area">
+            <textarea id="userInput" placeholder="Type your message..." rows="1"></textarea>
+            <button class="send-btn" onclick="sendMessage()" id="sendBtn">
+                <svg viewBox="0 0 24 24">
+                    <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"></path>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
